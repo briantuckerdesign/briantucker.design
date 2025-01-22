@@ -1,96 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Brian Tucker Design</title>
-  <meta content="Home" property="og:title">
-  <meta content="Home" property="twitter:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/briantucker-design.webflow.css" rel="stylesheet" type="text/css">
-  <link href="images/Favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/Webclip.png" rel="apple-touch-icon">
-
-  <meta name="author" content="Brian Tucker, https://www.briantucker.design">
-  <meta name="description" content="Multidisciplinary design doing too many side projects.">
-  <meta property="og:title" content="Brian Tucker Design">
-  <meta property="og:description" content="Multidisciplinary design doing too many side projects.">
-  <meta property="og:url" content="https://www.briantucker.design">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Brian Tucker Design">
-  <link rel="canonical" href="https://www.briantucker.design">
-  <meta name="keywords" content="brian tucker, design">
-
-  <style>
-    html {
-      font-size: calc(0.625rem + 0.41666666666666663vw);
-    }
-
-    @media screen and (max-width:1920px) {
-      html {
-        font-size: calc(0.625rem + 0.41666666666666674vw);
-      }
-    }
-
-    @media screen and (max-width:1440px) {
-      html {
-        font-size: calc(0.8126951092611863rem + 0.20811654526534862vw);
-      }
-    }
-
-    @media screen and (max-width:479px) {
-      html {
-        font-size: calc(0.7494769874476988rem + 0.8368200836820083vw);
-      }
-    }
-  </style>
-</head>
-
-<body class="body-ody-ody-ody">
-  <div class="w-embed">
+  <head>
+    <meta charset="utf-8" />
+    <title>Brian Tucker, designer</title>
+    <link rel="preload" href="images/brian-purple.webp" as="image" />
+    <link rel="preload" href="images/brian-blue.webp" as="image" />
+    <link rel="preload" href="images/brian-red.webp" as="image" />
+    <meta content="Brian Tucker, designer" name="description" />
+    <meta content="Brian Tucker, designer" property="og:title" />
+    <meta content="Brian Tucker, designer" property="og:description" />
+    <meta content="images/og.jpg" property="og:image" />
+    <meta content="Brian Tucker, designer" property="twitter:title" />
+    <meta content="Brian Tucker, designer" property="twitter:description" />
+    <meta content="images/og.jpg" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link href="css/standardize.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link
+      href="css/briantucker-design.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.png" rel="apple-touch-icon" />
     <style>
       html {
         font-size: calc(0.625rem + 0.41666666666666663vw);
       }
-
-      @media screen and (max-width:1920px) {
+      @media screen and (max-width: 1920px) {
         html {
           font-size: calc(0.625rem + 0.41666666666666674vw);
         }
       }
-
-      @media screen and (max-width:1440px) {
+      @media screen and (max-width: 1440px) {
         html {
           font-size: calc(0.8126951092611863rem + 0.20811654526534862vw);
         }
       }
-
-      @media screen and (max-width:479px) {
+      @media screen and (max-width: 479px) {
         html {
           font-size: calc(0.7494769874476988rem + 0.8368200836820083vw);
         }
       }
     </style>
-  </div>
-  <div class="cont">
-    <div class="wrap">
-      <div class="text">
-        <h1 class="hero-h">Brian Tucker</h1>
-        <div class="w-layout-hflex flex-block">
-          <h2 class="hero-sub">I make stuff:</h2>
-          <a href="https://www.bybrian.io" target="_blank" class="link w-inline-block" rel="noopener">
-            <div>bybrian.io  ›</div>
-          </a>
-        </div>
-      </div><img src="images/brian-tucker-2880.webp" loading="lazy"
-        sizes="(max-width: 479px) 50vw, (max-width: 767px) 48vw, 47vw"
-        srcset="images/brian-tucker-2880-p-500.webp 500w, images/brian-tucker-2880-p-800.webp 800w, images/brian-tucker-2880-p-1080.webp 1080w, images/brian-tucker-2880-p-1600.webp 1600w, images/brian-tucker-2880-p-2000.webp 2000w, images/brian-tucker-2880.webp 2252w"
-        alt="" class="me">
+  </head>
+  <body>
+    <div class="color-styles w-embed">
+      <style>
+        *:focus-visible {
+          outline: 2px solid var(--color-brand);
+          outline-offset: 1px;
+          border-radius: 0.25rem;
+        }
+        ._2025_home_wrapper {
+          background-color: var(--purple--light);
+          color: var(--purple--dark);
+          animation: bg-transition 15s infinite;
+          animation-timing-function: linear;
+        }
+        @keyframes bg-transition {
+          0% {
+            background-color: var(--purple--light);
+            color: var(--purple--dark);
+          }
+          30.5% {
+            background-color: var(--purple--light);
+            color: var(--purple--dark);
+          }
+          35.5% {
+            background-color: var(--blue--light);
+            color: var(--blue--dark);
+          }
+          63.5% {
+            background-color: var(--blue--light);
+            color: var(--blue--dark);
+          }
+          68.5% {
+            background-color: var(--red--light);
+            color: var(--red--dark);
+          }
+          95% {
+            background-color: var(--red--light);
+            color: var(--red--dark);
+          }
+          100% {
+            background-color: var(--purple--light);
+            color: var(--purple--dark);
+          }
+        }
+        ._2025_home_photo {
+          animation: img-transition 15s infinite;
+          animation-timing-function: linear;
+        }
+        @keyframes img-transition {
+          0% {
+            background-image: url("images/brian-purple.webp");
+          }
+          30.5% {
+            background-image: url("images/brian-purple.webp");
+          }
+          35.5% {
+            background-image: url("images/brian-blue.webp");
+          }
+          63.5% {
+            background-image: url("images/brian-blue.webp");
+          }
+          68.5% {
+            background-image: url("images/brian-red.webp");
+          }
+          95% {
+            background-image: url("images/brian-red.webp");
+          }
+          100% {
+            background-image: url("images/brian-purple.webp");
+          }
+        }
+      </style>
     </div>
-  </div>
-  <script src="js/webflow.js" type="text/javascript"></script>
-</body>
-
+    <div class="_2025_home_wrapper">
+      <a
+        href="https://www.linkedin.com/in/brianmtucker/"
+        target="_blank"
+        class="_2025_social-link w-inline-block"
+      >
+        <div class="icon-embed-small w-embed">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            class="iconify iconify--bx"
+            width="currentWidth"
+            height="currentHeight"
+            preserveaspectratio="xMidYMid meet"
+            viewbox="0 0 24 24"
+          >
+            <path
+              d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096a1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277c-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387c2.704 0 3.203 1.778 3.203 4.092v4.71z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </a>
+      <div class="_2025_text-wrapper">
+        <div class="_2025_home_eyebrow">Designer</div>
+        <h1 class="_2025_home_name">Brian<br />Tucker</h1>
+      </div>
+      <div class="_2025_home_photo-wrapper">
+        <div class="_2025_home_photo"></div>
+      </div>
+    </div>
+  </body>
 </html>
